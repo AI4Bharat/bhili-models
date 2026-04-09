@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+wandb/
+lightning_logs/
+
+# Gradio
+flagged/
+
+# Extracted folders (keep archives)
+inference/NeMo/
+model/tokenizers/
+
+# Generated model files
+*_updated.nemo
+
+# Temp
+temp_model/
+tmp/
+*.tmp
